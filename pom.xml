@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pawar.todo</groupId>
-	<artifactId>app</artifactId>
+	<artifactId>to-do</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>to-do-list-service</name>
 	<description>to-do-list-service</description>
