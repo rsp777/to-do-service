@@ -101,7 +101,7 @@ jobs:
 
   
       - name: Maven Build
-        run:  mvn clean install -s $GITHUB_WORKSPACE/settings.xml
+        run:  mvn clean install -s $GITHUB_WORKSPACE/settings.xml && chmod -R 777 ./
         env:
             GITHUB_TOKEN: ${{ github.token }}
         # run: |-
